@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * The model of the PatientHistory document in the database. Will be mapped into
- * PatientHistoryDto objects for exchange with the web UI.
+ * The model of the PatientHistoryBean object used to obtain the PatientHistory
+ * document from the service PatientHistory.
  * 
  * @author emmanuel
  *

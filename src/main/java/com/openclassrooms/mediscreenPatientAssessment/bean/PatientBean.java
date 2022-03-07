@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * The model of the Patient entity in the database. Will be mapped into
- * PatientDto objects for exchange with the web UI.
+ * The model of the PatientBean object used to obtain the Patient object from
+ * the service Patient.
  * 
  * @author emmanuel
  *

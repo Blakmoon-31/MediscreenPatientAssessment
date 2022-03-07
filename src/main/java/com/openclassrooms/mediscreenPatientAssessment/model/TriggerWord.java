@@ -11,6 +11,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ * The model of the TriggerWord entity in the database.
+ * 
+ * @author emmanuel
+ *
+ */
 @Getter
 @Setter
 @NoArgsConstructor

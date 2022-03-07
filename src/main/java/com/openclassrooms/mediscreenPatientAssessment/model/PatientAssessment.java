@@ -4,6 +4,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ * The model of the PatientAssessment object.
+ * 
+ * @author emmanuel
+ *
+ */
 @Getter
 @Setter
 @NoArgsConstructor

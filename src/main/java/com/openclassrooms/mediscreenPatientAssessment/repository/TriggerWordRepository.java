@@ -5,6 +5,12 @@ import org.springframework.stereotype.Repository;
 
 import com.openclassrooms.mediscreenPatientAssessment.model.TriggerWord;
 
+/**
+ * Repository for CRUD operations on TriggerWord object.
+ * 
+ * @author emmanuel
+ *
+ */
 @Repository
 public interface TriggerWordRepository extends JpaRepository<TriggerWord, String> {
 
