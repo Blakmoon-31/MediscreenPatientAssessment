@@ -17,7 +17,7 @@ import com.openclassrooms.mediscreenPatientAssessment.proxy.PatientProxy;
 import com.openclassrooms.mediscreenPatientAssessment.repository.TriggerWordRepository;
 
 /**
- * Service for the evaluation of diabetes assessments for patients.
+ * Service for the patient's assessments.
  * 
  * @author emmanuel
  *
@@ -68,7 +68,7 @@ public class PatientAssessmentService {
 	 * @param age               - The patient's age
 	 * @return A string representing the risk's level
 	 */
-	private String evaluate(int countTriggerWords, String sex, int age) {
+	public String evaluate(int countTriggerWords, String sex, int age) {
 
 		if (age >= 30) {
 			if (countTriggerWords <= 1) {
@@ -113,7 +113,7 @@ public class PatientAssessmentService {
 	 * @param patientHistories - Histories of the practitioner's note for a patient
 	 * @return The number of trigger words found
 	 */
-	private int countingTriggerWords(List<PatientHistoryBean> patientHistories) {
+	public int countingTriggerWords(List<PatientHistoryBean> patientHistories) {
 
 		List<TriggerWord> triggerWords = triggerWordRepository.findAll();
 
