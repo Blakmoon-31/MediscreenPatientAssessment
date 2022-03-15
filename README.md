@@ -20,6 +20,7 @@
 
 ## Use
 1. The service address is http://localhost:8080.
+2. The Swagger documentation for the API is available at the adress http://localhost:8080/swagger-ui.html.
 
 ## Docker service
 1. After importing all services (patient, history, assessment and Web UI), run the command "docker-compose up --build" from the folder of the MediscreenPatient project.
