@@ -18,6 +18,7 @@ public class PatientAssessmentControllerIT {
 	@Autowired
 	private PatientAssessmentController patientAssessmentController;
 
+//	@Disabled
 	@Test
 	public void testCalculateAssessmentByPatientId() {
 
@@ -26,6 +27,7 @@ public class PatientAssessmentControllerIT {
 		assertThat(assessment.getAssessmentResult()).isEqualTo("In Danger");
 	}
 
+//	@Disabled
 	@Test
 	public void testCalculateAssessmentByPatientName() {
 
